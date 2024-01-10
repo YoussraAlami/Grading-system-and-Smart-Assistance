@@ -51,7 +51,7 @@ In our project, the establishment of an Arabic Natural Language Processing (NLP)
 ![Untitled](images/image4.png)
 
 
-###Responding to questions
+### Responding to questions
 ![Untitled](images/quest1.jpeg)
 ![Untitled](images/quest2.jpeg)
 ![Untitled](images/quest10.jpeg)
