@@ -1,5 +1,3 @@
-<img src="https://github.com/YoussraAlami/Grading-system-and-Smart-Assistance/blob/master/images/Image1.png" alt="Your Image" width="100%">
-
 
 
 # Arabic Automated Short Answers Grading System
@@ -21,27 +19,6 @@ The project aims to develop an Arabic Automated Short Answers Grading System and
 
 [Establishment of Arabic Natural language processing pipeline](#establishment-of-arabic-natural-language-processing-pipeline)
 
-[Exploratory data analysis (EDA)](#exploratory-data-analysis)
-* [Loading Data](#loading-data)
-* [Characteristics](#characteristics)
-* [Data Cleaning](#data-cleaning)
-
-[Data Pre-Preprocessing](#data-pre-preprocessing)
-* [Split Data](#split-data)
-
-[build Models](#build-models)
-* [Testing  Models](#testing-models)
-* [Saving The Best Model](#saving-the-best-model)
-
-[Backend of our Application](#backend-of-our-application)
-* [FastAPI](#fastapi)
-* [GraphQL Server Side](#graphql-server-side)
-* [Docker Server Side](#docker-server-side)
-
-[Frontend of our Application](#frontend-of-our-application)
-* [Angular](#angular)
-* [GraphQL Client Side](#graphql-client-side)
-* [Docker Client Side](#docker-client-side)
 
 [Testing the Application](#testing-the-application)
 * [Home Page](#home-page)
@@ -54,11 +31,7 @@ The project aims to develop an Arabic Automated Short Answers Grading System and
 
 The initial step in our project involves collecting raw data from diverse sources, including Arabic websites, datasets, and educational books. This varied dataset is essential for training and evaluating our Arabic Automated Short Answers Grading System and Smart Assistance for Islamic education.
 
-### Procedure
 
-To gather relevant and comprehensive data, we employ scraping techniques, accessing Arabic websites, exploring existing datasets. This process ensures the creation of a dataset that captures the linguistic and educational nuances of the Arabic language.
-
-<img src="https://github.com/YoussraAlami/Grading-system-and-Smart-Assistance/blob/master/images/dataset.png" alt="Your Image" width="100%">
 
 
 
@@ -76,14 +49,24 @@ In our project, the establishment of an Arabic Natural Language Processing (NLP)
 
 ### Question Page
 ![Untitled](images/image4.png)
-![Untitled](images/image5.png)
+
+
+###Responding to questions
+![Untitled](images/quest1.jpeg)
+![Untitled](images/quest2.jpeg)
+![Untitled](images/quest10.jpeg)
+
 
 
 ### Result Page
-
 By clicking on the button ****ارسال**** the grades given by the models we trained will showed with the correct answers :
 
-![Untitled](images/image5.png)
+
+The page "تقييم الإختبار" shows the grades given by the models we trained along with the correct answers.
+
+![Untitled](images/resultat.jpeg)
+
+
 
 
 ## Contributors
