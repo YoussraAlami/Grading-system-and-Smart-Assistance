@@ -1,0 +1,61 @@
+<div *ngIf="OtherDiv" >
+<div class="prayer" >
+    <p>" اللَّهُمَّ لا سَهْلَ إِلاَّ ما جَعَلْتَهُ سَهْلاً، وأنْتَ تَجْعَلُ الحَزْنَ إذَا شِئْتَ سَهْلاً"</p>
+</div>
+<button class="start" (click)="start()">بدء الإختبار</button >
+</div>
+
+<div class="quiz" *ngIf="QuizDiv" >
+    <div class="container" *ngIf="questions.length > 0">
+        <label for="">
+          السؤال {{ currentQuestionIndex + 1 }} : {{ questions[currentQuestionIndex]['question'] }}
+        </label>
+        <input
+          type="text"
+          class="newsletter-input_en w-input"
+          maxlength="256"
+          name="Newsletter-2"
+          data-name="Newsletter 2"
+          placeholder=" "
+          id=""
+          required=""
+          [(ngModel)]="inputValeur"
+        />
+      </div>
+
+ <div class="container" >
+    <button class="btn" (click)="showNextQuestion()">التالي</button> 
+    <button class="btnSubmit" [disabled]="boutonDesactive" (click)="submit()">إرسال </button >
+    <button class="btn"  (click)="showPreviousQuestion()">السابق</button >
+    
+ </div>
+</div>
+<div class="quiz" *ngIf="Result">
+  <div class="container" style="direction:rtl">
+  <h2>تقييم الإختبار</h2>
+    
+  <table class="table table-bordered" style="direction: rtl">
+    <thead>
+      <tr>
+        <th scope="col">رقم السؤال</th>
+        <th scope="col">السؤال</th>
+        <th scope="col">الجواب</th>
+        <th scope="col">المعدل</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of Responses; let i = index;">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{questions[i]['question']}}</td>
+        <td>{{ element }}</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+
+     <h3>المعدل النهائي  :</h3>
+    </div>
+
+
+</div>

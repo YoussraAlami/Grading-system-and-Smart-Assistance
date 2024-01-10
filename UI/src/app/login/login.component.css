@@ -1,0 +1,33 @@
+h1{
+    color: rgb(255, 255, 255);
+    border-color: black;    
+}
+.login{
+    display: block;
+    background-image:url('../../assets/images/img.jpg');
+    padding:9%;
+    background-size: cover; 
+    margin: auto;
+    opacity: 0.5;
+    width:75%;
+    background-repeat: no-repeat;
+    border-radius:2%;
+}
+
+input{
+    text-align: right;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+button{
+    background-color: #95581e;
+    color: aliceblue;
+    border-radius: 5%;
+    opacity: 1 !important;
+    padding: 2%;
+    font-size: x-large;
+    font-weight: 500;
+    
+}
+

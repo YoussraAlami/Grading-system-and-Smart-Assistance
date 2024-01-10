@@ -1,0 +1,22 @@
+.quiz{
+    /*background-color:#985836;*/
+    background-color: #ebbb8e;
+
+    border-radius:20px;
+    padding: 7%;
+    margin: 2%;
+   
+}
+
+.btn{
+padding:1%;
+width: 20%;
+margin: auto;
+background-color: #e1a064;
+border: #e1a064;
+font-size: x-large;
+}
+
+input{
+    direction: rtl;
+}

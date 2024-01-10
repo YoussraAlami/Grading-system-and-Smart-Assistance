@@ -1,0 +1,28 @@
+div{
+    text-align: right;
+}
+
+h1{
+    padding-right: 10%;
+}
+
+li{
+    direction: rtl;
+    padding: 1%;
+    
+}
+
+#btnRight{
+font-size:90px;
+float:right;
+color:#dc8d04dd;
+background-color: rgb(246,244,241);
+}
+
+#btnLeft{
+font-size:90px;
+float:right;
+color:#dc8d04dd;
+display: none;
+background-color: rgb(246,244,241);
+}

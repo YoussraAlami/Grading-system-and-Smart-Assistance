@@ -1,0 +1,99 @@
+.quiz{
+    /*background-color:#985836;*/
+    background-color: #ebbb8e;
+    border-radius:20px;
+    padding:7%;
+    padding-top:5%;
+    margin: 2%;
+   
+}
+
+.prayer{
+ padding-top: 15%;
+ padding-bottom: 15%;
+ padding-right: 10%;
+ margin: auto;
+ margin-bottom: 1%;
+ background-image: url(../../assets/images/doae.jpg);
+ background-repeat: no-repeat;
+ background-size: cover; 
+ width: 70%;
+ opacity: 0.5;
+}
+
+p{
+    text-align: right;
+    font-size: xx-large;
+    font-weight: 600;
+    color: aliceblue;
+}
+.start{
+    width: 60%;
+    padding: 1.5%;
+    margin-left:20%;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: #ebbb8e;
+    border-radius: 8px;
+}
+
+.start:hover{
+    background-color: #deb288;
+}
+
+.btn{
+ padding: 1%;
+ width: 10%;
+ background-color: #b3b3b3;
+ font-size: x-large;
+ border: #A97344;
+ border-radius: 6px;
+ margin-left: 16%;
+ margin-right: 16%;
+}
+
+.btn:hover{
+    background-color: #9c9a9a;
+    color: #000000;
+}
+
+
+.btnSubmit{
+ padding: 1%;
+ width: 16%;
+ background-color: #ca7627;
+ font-size: x-large;
+ border: #A97344;
+ border-radius: 2px;
+ color: rgb(255, 255, 255);
+ 
+}
+
+.btnSubmit:hover{
+  background-color: #ca7627;
+}
+
+input{
+    text-align: right;
+    border: none;
+    background-color:#e5c3a6;
+    padding: 2%;
+}
+
+label{
+color:black;
+direction: rtl;
+font-size:large;
+}
+
+
+th {
+    background-color: #edcbab;
+    text-align: center;
+}
+
+
+h2,h3{
+  color: #000000;
+  margin-bottom: 3%;
+}
