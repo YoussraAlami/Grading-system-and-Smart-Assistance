@@ -71,8 +71,8 @@ The page "تقييم الإختبار" shows the grades given by the models we t
 
 ## Contributors
 
-Alami Youssra
+ALAMI Youssra
 
-El younessi Oumaima
+El YOUNSSI Oumaima
 
 El Hammami Chaimae
