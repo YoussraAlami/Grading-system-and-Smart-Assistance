@@ -73,6 +73,3 @@ The page "تقييم الإختبار" shows the grades given by the models we t
 
 ALAMI Youssra
 
-El YOUNSSI Oumaima
-
-El Hammami Chaimae
